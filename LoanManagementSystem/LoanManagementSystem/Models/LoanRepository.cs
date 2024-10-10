@@ -29,15 +29,15 @@ public class LoanRepository : ILoanRepository
     public void UpdateLoan(Loan loan)
     {
 
-        _conn.Execute("UPDATE Loans SET BorrowerID = @borrowerid, LoanAmount = @loanamount, InterestRate = @interestrate, LoanTermInMonths = @loanterminmonths, StartDate = @startdate, EndDate = @enddate, Status = @status WHERE LoanID = @id", 
-            new { borrowerid = loan.BorrowerID, loanamount = loan.LoanAmount, interestrate = loan.InterestRate, loanterminmonths = loan.LoanTermInMonths, startdate = loan.StartDate, enddate = loan.EndDate, status = loan.Status, id = loan.LoanID });
+        _conn.Execute("UPDATE Loans SET BorrowerID = @borrowerid, LoanAmount = @loanamount, InterestRate = @interestrate, LoanTermInMonths = @loanterminmonths, StartDate = @startdate, EndDate = @enddate, Status = @status, LoanType = @loantype WHERE LoanID = @id", 
+            new { borrowerid = loan.BorrowerID, loanamount = loan.LoanAmount, interestrate = loan.InterestRate, loanterminmonths = loan.LoanTermInMonths, startdate = loan.StartDate, enddate = loan.EndDate, status = loan.Status, loantype = loan.LoanType, id = loan.LoanID });
         
     }
 
     public void InsertLoan(Loan loanToInsert)
     {
-        _conn.Execute("INSERT INTO Loans (BorrowerID, LoanAmount, InterestRate, LoanTermInMonths, StartDate, EndDate, Status) VALUES (@BorrowerID, @LoanAmount, @InterestRate, @LoanTermInMonths, @StartDate, @EndDate, @Status);",
-        new {borrowerid = loanToInsert.BorrowerID, loanamount = loanToInsert.LoanAmount, interestrate = loanToInsert.InterestRate, loanterminmonths = loanToInsert.LoanTermInMonths, startdate = loanToInsert.StartDate, enddate = loanToInsert.EndDate, status = loanToInsert.Status });
+        _conn.Execute("INSERT INTO Loans (BorrowerID, LoanAmount, InterestRate, LoanTermInMonths, StartDate, EndDate, Status, LoanType) VALUES (@BorrowerID, @LoanAmount, @InterestRate, @LoanTermInMonths, @StartDate, @EndDate, @Status, @LoanType);",
+            new { borrowerid = loanToInsert.BorrowerID, loanamount = loanToInsert.LoanAmount, interestrate = loanToInsert.InterestRate, loanterminmonths = loanToInsert.LoanTermInMonths, startdate = loanToInsert.StartDate, enddate = loanToInsert.EndDate, status = loanToInsert.Status, loantype = loanToInsert.LoanType });
     }
 
     public void DeleteLoan(Loan loanToDelete)

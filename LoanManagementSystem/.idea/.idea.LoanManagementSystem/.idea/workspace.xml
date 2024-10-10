@@ -15,6 +15,30 @@
       <change beforePath="$PROJECT_DIR$/../../HelloWorldC-/HelloWorld/HelloWorld/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../HelloWorldC-/HelloWorld/HelloWorld/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../HelloWorldC-/HelloWorld/HelloWorld/obj/Debug/net8.0/HelloWorld.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../HelloWorldC-/HelloWorld/HelloWorld/obj/Debug/net8.0/HelloWorld.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../HelloWorldC-/HelloWorld/HelloWorld/obj/Debug/net8.0/HelloWorld.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../HelloWorldC-/HelloWorld/HelloWorld/obj/Debug/net8.0/HelloWorld.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.LoanManagementSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LoanManagementSystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Models/Loan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Models/Loan.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Models/LoanRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Models/LoanRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Views/Home/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Views/Home/Privacy.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Views/Loan/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Views/Loan/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Views/Loan/InsertLoan.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Views/Loan/InsertLoan.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Views/Loan/UpdateLoan.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Views/Loan/UpdateLoan.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Views/Loan/ViewLoan.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Views/Loan/ViewLoan.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Views/Payment/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Views/Payment/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Views/Shared/_Layout.cshtml.css" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Views/Shared/_Layout.cshtml.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/bin/Debug/net8.0/LoanManagementSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/bin/Debug/net8.0/LoanManagementSystem.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/bin/Debug/net8.0/LoanManagementSystem.exe" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/bin/Debug/net8.0/LoanManagementSystem.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/bin/Debug/net8.0/LoanManagementSystem.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/bin/Debug/net8.0/LoanManagementSystem.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/ref/LoanManagementSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/ref/LoanManagementSystem.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/refint/LoanManagementSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/refint/LoanManagementSystem.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/scopedcss/bundle/LoanManagementSystem.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/scopedcss/bundle/LoanManagementSystem.styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/scopedcss/projectbundle/LoanManagementSystem.bundle.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/scopedcss/projectbundle/LoanManagementSystem.bundle.scp.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/.idea/.idea.ORMDapperDemoCSharp-50/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/.idea/.idea.ORMDapperDemoCSharp-50/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/Department.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/Department.cs" afterDir="false" />
@@ -144,7 +168,7 @@
       <workItem from="1728568202785" duration="15000" />
       <workItem from="1728568227958" duration="325000" />
       <workItem from="1728569072269" duration="12000" />
-      <workItem from="1728569096451" duration="8133000" />
+      <workItem from="1728569096451" duration="12714000" />
     </task>
     <servers />
   </component>

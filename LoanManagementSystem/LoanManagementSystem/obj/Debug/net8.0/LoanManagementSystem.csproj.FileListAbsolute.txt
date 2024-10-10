@@ -48,3 +48,4 @@ C:\Users\Samuel Hossain\Desktop\Repos\LoanManagementSystem\LoanManagementSystem\
 C:\Users\Samuel Hossain\Desktop\Repos\LoanManagementSystem\LoanManagementSystem\LoanManagementSystem\obj\Debug\net8.0\LoanManagementSystem.pdb
 C:\Users\Samuel Hossain\Desktop\Repos\LoanManagementSystem\LoanManagementSystem\LoanManagementSystem\obj\Debug\net8.0\LoanManagementSystem.genruntimeconfig.cache
 C:\Users\Samuel Hossain\Desktop\Repos\LoanManagementSystem\LoanManagementSystem\LoanManagementSystem\obj\Debug\net8.0\ref\LoanManagementSystem.dll
+C:\Users\Samuel Hossain\Desktop\Repos\LoanManagementSystem\LoanManagementSystem\LoanManagementSystem\obj\Debug\net8.0\LoanManagementSystem.sourcelink.json
