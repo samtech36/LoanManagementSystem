@@ -1,0 +1,38 @@
+@model LoanManagementSystem.Models.Payment
+
+<h3>Loan ID: @Model.PaymentID Information</h3>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Payment ID</th>
+        <th>Loan ID</th>
+        <th>Payment Amount</th>
+        <th>Payment Date</th>
+        <th>Payment Method</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>@Model.PaymentID</td>
+        <td>@Model.LoanID</td>
+        <td>@Model.PaymentAmount</td>
+        <td>@Model.PaymentDate</td>
+        <td>@Model.PaymentMethod</td>
+    </tr>
+    </tbody>
+</table>
+
+<div style="display: block">
+    <a href="/Payment/UpdatePayment/@Model.PaymentID">Update the Payment</a>
+</div>
+
+<div style="display: block">
+
+    @using (Html.BeginForm("DeletePayment", "Payment", "Post"))
+    {
+        <input type="hidden" asp-for="PaymentID" value="@Model.PaymentID" />
+        <input type="submit" onclick="return confirm('Are you sure?')" value="Delete Payment" />
+    }
+</div>
+

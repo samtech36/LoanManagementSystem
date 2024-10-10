@@ -1,0 +1,35 @@
+@model LoanManagementSystem.Models.Borrower
+
+<h3>@Model.BorrowerID Information</h3>
+
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <td>Last Name</td>
+        <th>Email</th>
+        <th>Phone Number</th>
+        <th>Address</th>
+    </tr>
+    <tr>
+        <td>@Model.BorrowerID</td>
+        <td>@Model.FirstName</td>
+        <td>@Model.LastName</td>
+        <td>@Model.Email</td>
+        <td>@Model.PhoneNumber</td>
+        <td>@Model.Address</td>
+    </tr>
+</table>
+
+<div style="display: block">
+    <a href="/Borrower/UpdateBorrower/@Model.BorrowerID">Update Borrower</a>
+</div>
+
+<div style="display: block">
+
+    @using (Html.BeginForm("DeleteBorrower", "Borrower", "Post"))
+    {
+        <input type="hidden" asp-for="BorrowerID" value="@Model.BorrowerID" />
+        <input type="submit" onclick="return confirm('Are you sure?')" value="Delete this person" />
+    }
+</div>

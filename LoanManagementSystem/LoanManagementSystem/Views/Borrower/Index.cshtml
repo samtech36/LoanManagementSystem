@@ -1,0 +1,34 @@
+@model IEnumerable<Borrower>
+
+<h2>Borrowers</h2>
+
+<div style="display: block">
+    <a href="/Borrower/InsertBorrower/">Enter a Borrower for Signing a Loan</a>
+</div>
+
+
+
+
+<table class="table">
+    <tr>
+        <th>ID</th>
+        <th>First Name</th>
+        <td>Last Name</td>
+        <th>Email</th>
+        <th>Phone Number</th>
+        <th>Address</th>
+    </tr>
+
+    @foreach (var borrower in @Model)
+    {
+        <tr>
+            <td><a href="/Borrower/ViewBorrower/@borrower.BorrowerID">@borrower.BorrowerID</a></td>
+            <td>@borrower.FirstName</td>
+            <td>@borrower.LastName</td>
+            <td>@borrower.Email</td>
+            <td>@borrower.PhoneNumber</td>
+            <td>@borrower.Address</td>
+        </tr>
+    }
+
+</table>

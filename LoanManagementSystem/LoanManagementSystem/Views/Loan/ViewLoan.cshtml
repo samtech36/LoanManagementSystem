@@ -1,0 +1,45 @@
+@model LoanManagementSystem.Models.Loan
+
+<h2>Loan Details for @Model.LoanID</h2>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>Loan ID</th>
+        <th>Borrower ID</th>
+        <th>Loan Amount</th>
+        <th>Interest Rate</th>
+        <th>Loan Term In Months</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+        <th>Status</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>@Model.LoanID</td>
+        <td>@Model.BorrowerID</td>
+        <td>@Model.LoanAmount</td>
+        <td>@Model.InterestRate</td>
+        <td>@Model.LoanTermInMonths</td>
+        <td>@Model.StartDate.ToShortDateString()</td>
+        <td>@Model.EndDate.ToShortDateString()</td> 
+        <td>@Model.Status</td>
+    </tr>
+    </tbody>
+</table>
+
+
+<div style="display: block">
+    <a href="/Loan/UpdateLoan/@Model.LoanID">Update this Loan</a>
+</div>
+
+<div style="display: block">
+    @using (Html.BeginForm("DeleteLoan", "Loan", FormMethod.Post))
+    {
+    <input type="hidden" asp-for="LoanID" value="@Model.LoanID" />
+    <input type="submit" onclick="return confirm('Are you sure?')" value="Delete this loan" class="btn btn-danger" />
+    }
+</div>
+
+

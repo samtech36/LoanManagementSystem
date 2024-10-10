@@ -1,0 +1,30 @@
+@model LoanManagementSystem.Models.Loan
+
+<h2>Create a New Loan</h2>
+
+@using (Html.BeginForm("InsertLoanToDatabase", "Loan", "Post"))
+{
+    <label asp-for="BorrowerID" class="control-label">Borrower ID</label>
+    <input type="text" name="BorrowerID" class="form-control" />
+
+    <label asp-for="LoanAmount" class="control-label">Loan Amount</label>
+    <input type="number" step="0.01" name="LoanAmount" class="form-control" />
+
+    <label asp-for="InterestRate" class="control-label">Interest Rate</label>
+    <input type="number" step="0.01" name="InterestRate" class="form-control" />
+
+    <label asp-for="LoanTermInMonths" class="control-label">Loan Term (Months)</label>
+    <input type="number" name="LoanTermInMonths" class="form-control" />
+
+    <label asp-for="StartDate" class="control-label">Start Date</label>
+    <input type="date" name="StartDate" class="form-control" />
+    
+    <label asp-for="EndDate" class="control-label">End Date</label>
+    <input type="date" name="EndDate" class="form-control" />
+    
+    <label asp-for="Status" class="control-label">Status</label>
+    <input type="text" name="Status" class="form-control" />
+
+    <input type="submit" value="Create Loan" class="btn btn-primary" />
+}
+    

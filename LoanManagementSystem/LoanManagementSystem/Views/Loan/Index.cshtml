@@ -1,0 +1,36 @@
+@model IEnumerable<Loan>
+
+<h2>Loans</h2>
+
+<div style="display: block">
+    <a href="/Loan/InsertLoan/">Create a New Loan</a>
+</div>
+
+<table class="table">
+    <tr>
+        <th>Loan ID</th>
+        <th>Borrower ID</th>
+        <th>Loan Amount</th>
+        <th>Interest Rate</th>
+        <td>Loan Term In Months</td>
+        <th>Start Date</th>
+        <th>End Date</th>
+        <th>Status</th>
+    </tr>
+
+    @foreach (var loan in @Model)
+    {
+        <tr>
+            <td> <a href="/Loan/ViewLoan/@loan.LoanID">@loan.LoanID</a></td>
+            <td>@loan.BorrowerID</td>
+            <td>@loan.LoanAmount</td>
+            <td>@loan.InterestRate</td>
+            <td>@loan.LoanTermInMonths</td>
+            <td>@loan.StartDate</td>
+            <td>@loan.EndDate</td>
+            <td>@loan.Status</td>
+        </tr>
+    }
+
+</table>
+

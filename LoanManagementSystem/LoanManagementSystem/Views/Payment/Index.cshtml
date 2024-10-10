@@ -1,0 +1,32 @@
+@model IEnumerable<LoanManagementSystem.Models.Payment>
+
+<h2>Payments</h2>
+
+<div style="display: block">
+<a href="/Payment/InsertPayment/">Insert Payments for a Loan</a>
+</div>
+
+<table class="table">
+<thead>
+<tr>
+    <th>Payment ID</th>
+    <th>Loan ID</th>
+    <th>Payment Amount</th>
+    <th>Payment Date</th>
+    <th>Payment Method</th>
+</tr>
+</thead>
+<tbody>
+@foreach (var payment in Model)
+{
+    <tr>
+        <td><a href=/Payment/ViewPayment/@payment.PaymentID>@payment.PaymentID</a></td>
+        <td>@payment.LoanID</td>
+        <td>@payment.PaymentAmount</td>
+        <td>@payment.PaymentDate.ToShortDateString()</td>
+        <td>@payment.PaymentMethod</td>
+        <td>
+    </tr>
+}
+</tbody>
+</table>

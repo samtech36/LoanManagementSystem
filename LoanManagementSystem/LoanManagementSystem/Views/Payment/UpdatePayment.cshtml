@@ -1,0 +1,28 @@
+@model LoanManagementSystem.Models.Payment
+
+<h2>Update Payment @Model.PaymentID</h2>
+
+@using (Html.BeginForm("UpdatePaymentToDatabase", "Payment", "Post"))
+{
+    <!-- Hidden field for PaymentID -->
+    <input asp-for="PaymentID" type="hidden" value="@Model.PaymentID" />
+
+    <!-- Field for LoanID -->
+    <label asp-for="LoanID" class="control-label">Loan ID</label>
+    <input type="text" name="LoanID" class="form-control" value="@Model.LoanID" readonly />
+
+    <!-- Field for PaymentAmount -->
+    <label asp-for="PaymentAmount" class="control-label">Payment Amount</label>    
+    <input type="number" step="0.01" name="PaymentAmount" class="form-control" value="@Model.PaymentAmount" />
+
+    <!-- Field for PaymentDate -->
+    <label asp-for="PaymentDate" class="control-label">Payment Date</label>
+    <input type="date" name="PaymentDate" class="form-control" value="@Model.PaymentDate.ToString("yyyy-MM-dd")" />
+
+    <!-- Field for PaymentMethod -->
+    <label asp-for="PaymentMethod" class="control-label">Payment Method</label>
+    <input type="text" name="PaymentMethod" class="form-control" value="@Model.PaymentMethod" />
+
+    <!-- Submit button -->
+    <input type="submit" value="Update Payment" class="btn btn-primary" />
+}
