@@ -12,4 +12,5 @@ public class Loan
     public string Status { get; set; }
     public string LoanType { get; set; }
     
+    
 }

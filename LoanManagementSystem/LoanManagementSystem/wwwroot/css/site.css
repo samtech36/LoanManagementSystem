@@ -17,6 +17,68 @@ html {
   min-height: 100%;
 }
 
+/* General Styling */
 body {
-  margin-bottom: 60px;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #28a745; /* Green Background */
+  color: white;
+  text-align: center;
 }
+
+/* Header Styling */
+header {
+  background: #28a745; /* Green Header */
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Navigation Bar */
+nav {
+  background: #28a745;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+nav ul{
+  background-color: green; /* Change to your desired shade of green */
+  /* ... other existing styles ... */
+}
+
+nav a {
+  color: green;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 15px;
+  transition: color 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #FFD700; /* Gold on Hover */
+}
+
+/* Main Content */
+.main-content {
+  text-align: center;
+  padding-top: 100px;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: white;
+}
+
+
+

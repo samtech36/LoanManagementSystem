@@ -10,6 +10,4 @@ public class Borrower
     public string Address { get; set; }
     
     
-    
-    
 }

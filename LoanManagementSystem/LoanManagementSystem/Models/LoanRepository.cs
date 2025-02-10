@@ -36,7 +36,7 @@ public class LoanRepository : ILoanRepository
 
     public void InsertLoan(Loan loanToInsert)
     {
-        _conn.Execute("INSERT INTO Loans (BorrowerID, LoanAmount, InterestRate, LoanTermInMonths, StartDate, EndDate, Status, LoanType) VALUES (@BorrowerID, @LoanAmount, @InterestRate, @LoanTermInMonths, @StartDate, @EndDate, @Status, @LoanType);",
+        _conn.Execute("INSERT INTO Loans (BorrowerID, LoanAmount, InterestRate, LoanTermInMonths, StartDate, EndDate, Status, LoanType)  VALUES (@BorrowerID, @LoanAmount, @InterestRate, @LoanTermInMonths, @StartDate, @EndDate, @Status, @LoanType);",
             new { borrowerid = loanToInsert.BorrowerID, loanamount = loanToInsert.LoanAmount, interestrate = loanToInsert.InterestRate, loanterminmonths = loanToInsert.LoanTermInMonths, startdate = loanToInsert.StartDate, enddate = loanToInsert.EndDate, status = loanToInsert.Status, loantype = loanToInsert.LoanType });
     }
 

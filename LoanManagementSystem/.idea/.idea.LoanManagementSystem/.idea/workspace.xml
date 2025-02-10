@@ -10,50 +10,168 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9e56c994-fd62-4b7d-a504-82a610f49b95" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/.idea/.idea.PaymentManagementSystem/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/.idea/.idea.PaymentManagementSystem/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/.idea/.idea.PaymentManagementSystem/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/Controllers/HomeController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/Models/Customer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/Models/ErrorViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/Models/PaymentMethod.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/Models/Transaction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/PaymentManagementSystem.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/Views/Home/Index.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/Views/Home/Privacy.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/Views/Shared/Error.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/Views/Shared/_Layout.cshtml.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/Views/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/Views/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/Views/_ViewStart.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/obj/Debug/net8.0/PaymentManagementSystem.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/obj/Debug/net8.0/PaymentManagementSystem.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/obj/Debug/net8.0/PaymentManagementSystem.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/obj/Debug/net8.0/PaymentManagementSystem.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/obj/Debug/net8.0/PaymentManagementSystem.RazorAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/obj/Debug/net8.0/PaymentManagementSystem.RazorAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/obj/Debug/net8.0/PaymentManagementSystem.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/obj/PaymentManagementSystem.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/obj/PaymentManagementSystem.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/obj/PaymentManagementSystem.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/css/site.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/js/site.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Payment Management System/PaymentManagementSystem/PaymentManagementSystem/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../DebuggingDemoCSharp-50/DebuggingDemoCSharp-50/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../DebuggingDemoCSharp-50/DebuggingDemoCSharp-50/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/.idea/.idea.FizzBuzz/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/.idea/.idea.FizzBuzz/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/bin/Debug/net8.0/FizzBuzz.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/bin/Debug/net8.0/FizzBuzz.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/bin/Debug/net8.0/FizzBuzz.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/bin/Debug/net8.0/FizzBuzz.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/bin/Debug/net8.0/FizzBuzz.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/bin/Debug/net8.0/FizzBuzz.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/Debug/net8.0/FizzBuzz.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/Debug/net8.0/FizzBuzz.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/Debug/net8.0/FizzBuzz.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/Debug/net8.0/FizzBuzz.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/Debug/net8.0/FizzBuzz.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/Debug/net8.0/FizzBuzz.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/Debug/net8.0/FizzBuzz.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/Debug/net8.0/FizzBuzz.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/Debug/net8.0/FizzBuzz.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/Debug/net8.0/FizzBuzz.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/Debug/net8.0/FizzBuzz.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/Debug/net8.0/FizzBuzz.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/Debug/net8.0/FizzBuzz.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/Debug/net8.0/FizzBuzz.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/Debug/net8.0/ref/FizzBuzz.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/Debug/net8.0/ref/FizzBuzz.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/Debug/net8.0/refint/FizzBuzz.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/Debug/net8.0/refint/FizzBuzz.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/FizzBuzz.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/FizzBuzz.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../FizzBuzz/FizzBuzz/FizzBuzz/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../HelloWorldC-/HelloWorld/HelloWorld/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../HelloWorldC-/HelloWorld/HelloWorld/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../HelloWorldC-/HelloWorld/HelloWorld/obj/Debug/net8.0/HelloWorld.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../HelloWorldC-/HelloWorld/HelloWorld/obj/Debug/net8.0/HelloWorld.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../HelloWorldC-/HelloWorld/HelloWorld/obj/Debug/net8.0/HelloWorld.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../HelloWorldC-/HelloWorld/HelloWorld/obj/Debug/net8.0/HelloWorld.AssemblyInfoInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.LoanManagementSystem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.LoanManagementSystem/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Models/Borrower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Models/Borrower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Models/BorrowerRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Models/BorrowerRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Models/Loan.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Models/Loan.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Models/LoanRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Models/LoanRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Views/Home/Privacy.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Views/Home/Privacy.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Views/Loan/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Views/Loan/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Views/Loan/InsertLoan.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Views/Loan/InsertLoan.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Views/Loan/UpdateLoan.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Views/Loan/UpdateLoan.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Views/Loan/ViewLoan.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Views/Loan/ViewLoan.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Views/Payment/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Views/Payment/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Views/Shared/_Layout.cshtml.css" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Views/Shared/_Layout.cshtml.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/Models/Payment.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/Models/Payment.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoanManagementSystem/bin/Debug/net8.0/LoanManagementSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/bin/Debug/net8.0/LoanManagementSystem.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoanManagementSystem/bin/Debug/net8.0/LoanManagementSystem.exe" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/bin/Debug/net8.0/LoanManagementSystem.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoanManagementSystem/bin/Debug/net8.0/LoanManagementSystem.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/bin/Debug/net8.0/LoanManagementSystem.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/LoanManagementSystem.sourcelink.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/ref/LoanManagementSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/ref/LoanManagementSystem.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/refint/LoanManagementSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/refint/LoanManagementSystem.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/scopedcss/bundle/LoanManagementSystem.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/scopedcss/bundle/LoanManagementSystem.styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/scopedcss/projectbundle/LoanManagementSystem.bundle.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/obj/Debug/net8.0/scopedcss/projectbundle/LoanManagementSystem.bundle.scp.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/.idea/.idea.ORMDapperDemoCSharp-50/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/.idea/.idea.ORMDapperDemoCSharp-50/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/Department.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/Department.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/DepartmentRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/DepartmentRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/IDepartmentRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/IDepartmentRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/appsettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/Debug/net8.0/ORMDapperDemoCSharp-50.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/Debug/net8.0/ORMDapperDemoCSharp-50.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/ORMDapperDemoCSharp-50.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/ORMDapperDemoCSharp-50.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/ORMDapperDemoCSharp-50.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/ORMDapperDemoCSharp-50.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoanManagementSystem/wwwroot/css/site.css" beforeDir="false" afterPath="$PROJECT_DIR$/LoanManagementSystem/wwwroot/css/site.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/.idea/.idea.ORMDapperDemoCSharp-50/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/.idea/.idea.ORMDapperDemoCSharp-50/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/Department.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/DepartmentRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/IDepartmentRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/Debug/net8.0/ORMDapperDemoCSharp-50.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/Debug/net8.0/ORMDapperDemoCSharp-50.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/Debug/net8.0/ORMDapperDemoCSharp-50.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/Debug/net8.0/ORMDapperDemoCSharp-50.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/Debug/net8.0/ORMDapperDemoCSharp-50.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/ORMDapperDemoCSharp-50.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/ORMDapperDemoCSharp-50.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/ORMDapperDemoCSharp-50.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../New folder/ORMDapperDemoCSharp-50/ORMDapperDemoCSharp-50/obj/rider.project.restore.info" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +195,9 @@
     <setting file="file://$PROJECT_DIR$/../../HelloWorld/HelloWorld/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 1
@@ -86,21 +207,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.LoanManagementSystem: http.executor": "Run",
-    ".NET Launch Settings Profile.LoanManagementSystem: https.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.LoanManagementSystem: http.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.LoanManagementSystem: https.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.LoanManagementSystem: https">
     <configuration name="LoanManagementSystem: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/LoanManagementSystem/LoanManagementSystem.csproj" />
@@ -168,7 +289,14 @@
       <workItem from="1728568202785" duration="15000" />
       <workItem from="1728568227958" duration="325000" />
       <workItem from="1728569072269" duration="12000" />
-      <workItem from="1728569096451" duration="12714000" />
+      <workItem from="1728569096451" duration="13314000" />
+      <workItem from="1728856181609" duration="11000" />
+      <workItem from="1738087054715" duration="472000" />
+      <workItem from="1738172054073" duration="5041000" />
+      <workItem from="1738188887457" duration="6698000" />
+      <workItem from="1738261954132" duration="2323000" />
+      <workItem from="1738279447434" duration="2026000" />
+      <workItem from="1739116787615" duration="1844000" />
     </task>
     <servers />
   </component>
